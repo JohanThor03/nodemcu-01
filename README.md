@@ -5,7 +5,7 @@ Med hjälp av arduino så kan man relativt enkelt skapa program som kan använda
 <img width="650" height="366" alt="image" src="https://github.com/user-attachments/assets/3d9c796d-5625-40ec-b922-0645c3206bb6" />
 
 En arduino kod består av två delar, ```void setup()```och ```void loop()```
-```
+```c++
 void setup() {
    pinMode(LED_BUILTIN, OUTPUT);
 }
@@ -15,7 +15,7 @@ under funktionen pinMode så finner vi ```LED_BUILTIN``` och ```OUTPUT```.
 
 LED_BUILTIN är namnet på den inbyggda led pinnen på arduino kortet. Output gör så att den pinnen ska användas som utgång, den ska alltså skicka ut signaler istället för att ta emot signaler.
 
-```
+```c++
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);  
   delay(1000);                      
