@@ -1,6 +1,6 @@
 # nodemcu-01
 ## Förstå Blink i arduino
-För att kunna programmera en arduino board så använder vi språket C++. Här visas koden för att köra exempelkoden för att få en lampa att blinka.
+Med hjälp av arduino så kan man relativt enkelt skapa program som kan användas både för mer komplicerade prylar, men även väldigt simpla system. Ett arduinosystem är dessutom enkelt att implementera i ett internet of things system. För att kunna programmera en arduino board så använder vi språket C++. Här visas koden för att köra exempelkoden för att få en lampa att blinka.
 
 <img width="650" height="366" alt="image" src="https://github.com/user-attachments/assets/3d9c796d-5625-40ec-b922-0645c3206bb6" />
 
