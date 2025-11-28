@@ -1,5 +1,6 @@
 # Vecka-3-presentation
 ## Blink i arduino
+För att kunna programmera en arduino board så använder vi språket C++. Här visas koden för att köra exempelkoden för att få en lampa att blinka.
 ```
  // the setup function runs once when you press reset or power the board
 void setup() {
