@@ -8,6 +8,7 @@ En arduino kod består av två delar, ```void setup()```och ```void loop()```
 ```
 void setup() {
    pinMode(LED_BUILTIN, OUTPUT);
+}
 ```
 Under ``` viod setup () ``` så skriver man kod som krävs för att få ett program att starta en gång, t.ex. som att logga in eller få access till en server. Saker som inte behöver göras fler än en gång.
 under funktionen pinMode så finner vi ```LED_BUILTIN``` och ```OUTPUT```. 
